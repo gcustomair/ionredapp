@@ -1,0 +1,15 @@
+{
+  "name": "ionreddit",
+  "app_id": "c1a4dda5",
+  "v2": true,
+  "typescript": true,
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
